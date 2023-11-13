@@ -24,7 +24,7 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  margin: 33px
+  margin: 33px;
 }
 
 h1 {
@@ -34,10 +34,10 @@ h1 {
 }
 
 p {
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
 table {
@@ -52,7 +52,7 @@ table {
 thead {
   display: table-header-group;
   vertical-align: middle;
-  border-color: inherit
+  border-color: inherit;
 }
 
 tr {
@@ -77,13 +77,10 @@ td {
   padding-right: 5px;
 }
 
-a {
-  color: #000;
-}
-
 h2 {
   display: block;
-  
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 form {
@@ -94,4 +91,3 @@ form {
 div {
   margin-bottom: 10px;
 }
-
