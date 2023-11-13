@@ -12,10 +12,10 @@
   </div>
   
   <div class="actions">
-    <%= f.button "Update Book" %>
+    <%= f.submit "Update Book" %>
   </div>
-  
-  <a class="show" href="/books/show">Show</a>
-  |
-  <a class="back" href="/books">Back</a>
 <% end %>
+
+<%= link_to "Show", book_path(@book.id) %>
+|
+<%= link_to "Back", books_path %>
